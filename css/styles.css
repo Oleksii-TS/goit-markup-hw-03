@@ -114,6 +114,7 @@ h6 {
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .hero-title {
   font-weight: 700;
@@ -122,6 +123,10 @@ h6 {
   text-align: center;
   letter-spacing: 0.02em;
   color: #fff;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 .hero-button {
   background-color: #4d5ae5;
@@ -131,10 +136,31 @@ h6 {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  align-self: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  border: none;
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+}
+
+.strengths {
+  padding: 120px 0;
+}
+
+.strengths-list {
+  display: flex;
+  gap: 24px;
+}
+
+.strengths-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .strengths-title {
@@ -143,6 +169,9 @@ h6 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin: 0;
+  margin-bottom: 8px;
+  padding-left: 0;
 }
 
 .strengths-description {
@@ -151,10 +180,12 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin: 0;
 }
 
 .team-section {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-section-title {
@@ -165,10 +196,24 @@ h6 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 .team-item {
   background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.name-and-role-cnt {
+  padding: 32px 0;
 }
 
 .team-item-name {
@@ -177,6 +222,8 @@ h6 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-item-role {
@@ -185,6 +232,22 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
+  margin: 0;
+}
+
+.portfolio-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  width: calc((100%-48px) / 3);
 }
 
 .portfolio-section-title {
@@ -195,6 +258,14 @@ h6 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.title-and-category-cnt {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-item-title {
@@ -203,6 +274,7 @@ h6 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-item-category {
@@ -215,6 +287,7 @@ h6 {
 
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-description {
   font-weight: 400;
@@ -222,4 +295,9 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
