@@ -169,7 +169,6 @@ h6 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 0;
   margin-bottom: 8px;
   padding-left: 0;
 }
@@ -180,7 +179,6 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin: 0;
 }
 
 .team-section {
@@ -202,8 +200,6 @@ h6 {
 .team-list {
   display: flex;
   gap: 24px;
-  margin: 0;
-  padding: 0;
 }
 
 .team-item {
@@ -233,7 +229,6 @@ h6 {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-  margin: 0;
 }
 
 .portfolio-section {
