@@ -202,6 +202,10 @@ h6 {
   gap: 24px;
 }
 
+.team-item-image {
+  display: block;
+}
+
 .team-item {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
@@ -236,13 +240,17 @@ h6 {
   padding-bottom: 120px;
 }
 
+.portfolio-item-image {
+  display: block;
+}
+
 .portfolio-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: calc((100%-48px) / 3);
+  width: calc ((100%-48px) / 3);
 }
 
 .portfolio-section-title {
